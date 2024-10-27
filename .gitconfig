@@ -10,6 +10,7 @@
 [core]
     editor = nvim
     pager = "nvim -c 'setlocal buftype=nofile'"
+    autocrlf = false
 [pager]
     show = "nvim -c 'setlocal buftype=nofile'"
 [color]
