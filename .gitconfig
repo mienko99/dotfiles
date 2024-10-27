@@ -14,3 +14,11 @@
     show = "nvim -c 'setlocal buftype=nofile'"
 [color]
     ui = false
+[alias]
+    pd = log origin..
+[push]
+    default = current
+[filter "gitlocal"]
+    clean = "sed '/gitlocal/d'"
+    smudge = "cat"
+    required = true
